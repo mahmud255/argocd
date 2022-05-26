@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - shakhawat3111/webserver:56
