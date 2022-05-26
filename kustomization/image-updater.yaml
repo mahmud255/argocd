@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   annotations:
-    argocd-image-updater.argoproj.io/image-list: shakhawat3111/webserverf
+    argocd-image-updater.argoproj.io/image-list: shakhawat3111/webserver
     argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/gitcreds
     argocd-image-updater.argoproj.io/git-branch: main
   name: kustomize
